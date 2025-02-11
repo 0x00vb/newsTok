@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors({
-  origin: 'https://newstok.vercel.app/', // Your Vite frontend port
+  origin: 'https://newstok.vercel.app', // Your Vite frontend port
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
 }));
